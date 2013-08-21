@@ -8,8 +8,8 @@
     <ProjectGuid>{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GoogleAnalyticsLinqProvider</RootNamespace>
-    <AssemblyName>GoogleAnalyticsLinqProvider</AssemblyName>
+    <RootNamespace>linq2ga</RootNamespace>
+    <AssemblyName>linq2ga</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -107,7 +107,6 @@
     <Compile Include="Core\ExpressionParsing\Parsers\OrderByExpressionParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

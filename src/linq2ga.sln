@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsLinqProvider.Sample", "GoogleAnalyticsLinqProvider.Sample\GoogleAnalyticsLinqProvider.Sample.csproj", "{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq2ga.Sample", "linq2ga.Sample\linq2ga.Sample.csproj", "{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsLinqProvider", "GoogleAnalyticsLinqProvider\GoogleAnalyticsLinqProvider.csproj", "{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq2ga", "linq2ga\linq2ga.csproj", "{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
