@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoogleAnalyticsLinqProvider</RootNamespace>
+    <AssemblyName>GoogleAnalyticsLinqProvider</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.Apis, Version=1.2.4507.26291, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Google.Apis.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Apis.Analytics.v3, Version=1.2.4507.26269, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Google.Apis.Analytics.v3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\FieldDataNameAttribute.cs" />
+    <Compile Include="Core\Other\Constants.cs" />
+    <Compile Include="Core\Processing\AnalyticsProcessor.cs" />
+    <Compile Include="Core\Context\CreatedDataContext.cs" />
+    <Compile Include="Core\Context\QueryData.cs" />
+    <Compile Include="Core\Context\SelectedDataContext.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\BaseField.cs" />
+    <Compile Include="Core\Context\ContextDataModel.cs" />
+    <Compile Include="Core\Other\Factory.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\SecondsTimeSpanFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\SecondsTimeSpanMetric.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\VisitorTypeDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\SecondsTimeSpanDimension.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\YesNoBoolFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\YesNoBoolDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\YesNoBoolMetric.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\MediumTypeDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\AdSlotTypeDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\AdTargetingOptionTypeDimension.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\MilisecondsTimeSpanFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\MilsecondsTimeSpanDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\MilisecondsTimeSpanMetric.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\DateTimeFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\DateTimeDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\DateTimeMetric.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\DayOfWeekFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\DayOfWeekDimension.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Custom\DayOfWeekMetric.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\AdSlotTypeFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\AdTargetingOptionTypeFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\MediumTypeFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Custom\VisitorTypeFieldConverter.cs" />
+    <Compile Include="Core\Context\DataContext.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\DefaultFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Dimension.cs" />
+    <Compile Include="Core\DataFileds\FieldConverters\Interfaces\IFieldConverter.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\Metric.cs" />
+    <Compile Include="Core\DataFileds\DimensionsAndMetrics\BaseField_generic.cs" />
+    <Compile Include="Core\Other\FieldsMap.cs" />
+    <Compile Include="Core\Other\FieldsMapItem.cs" />
+    <Compile Include="Core\Processing\IAnalyticsProcessor.cs" />
+    <Compile Include="Enums\BooleanOperator.cs" />
+    <Compile Include="Core\ExpressionParsing\Expressons\ConditionalExpression.cs" />
+    <Compile Include="Enums\ConditionalOperator.cs" />
+    <Compile Include="Core\ExpressionParsing\Expressons\DataFieldExpression.cs" />
+    <Compile Include="Core\ExpressionParsing\Expressons\Interfaces\IExpression.cs" />
+    <Compile Include="Core\ExpressionParsing\Expressons\InvertExpression.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\FilterExpressionParser.cs" />
+    <Compile Include="Exceptions\NotSupportedExpressionException.cs" />
+    <Compile Include="Exceptions\GoogleAnalyticsRequestException.cs" />
+    <Compile Include="Enums\DataType.cs" />
+    <Compile Include="Enums\MediumType.cs" />
+    <Compile Include="Enums\VisitorType.cs" />
+    <Compile Include="Enums\AdSlotType.cs" />
+    <Compile Include="Enums\AdTargetingOptionType.cs" />
+    <Compile Include="Extensions\MemberInfoExtensions.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\Interfaces\IFilterExpressionParser.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\Interfaces\ISelectExpressionParser.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\Interfaces\IOrderByExpressionParser.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\SelectExpressionParser.cs" />
+    <Compile Include="Core\ExpressionParsing\Other\SelectExpressionParserResult.cs" />
+    <Compile Include="Core\ExpressionParsing\Parsers\OrderByExpressionParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

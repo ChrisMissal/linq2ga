@@ -1,0 +1,28 @@
+﻿@model GoogleAnalyticsLinqProvider.Sample.Models.VisitorsDataViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample</title>
+</head>
+<body>
+    <div>
+        <p><strong>Total Visitors: <span style="color: #008000">@Model.TotalVisitors</span></strong>
+        </p>
+        <table>
+            @foreach (var item in Model.VisitorsByCountries)
+            {
+                <tr>
+                    <td>
+                        <b>@item.Country</b>
+                    </td>
+                    <td>@item.Visitors
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

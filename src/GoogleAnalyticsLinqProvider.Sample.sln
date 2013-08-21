@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsLinqProvider.Sample", "GoogleAnalyticsLinqProvider.Sample\GoogleAnalyticsLinqProvider.Sample.csproj", "{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsLinqProvider", "GoogleAnalyticsLinqProvider\GoogleAnalyticsLinqProvider.csproj", "{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD17FC5E-8BFA-4CD9-BAF7-48A13689B10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC54B3CF-7DFB-4BAE-A44D-91659F14BCD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
