@@ -5,7 +5,7 @@ using System.Web;
 using System.IO;
 using System.Xml.Linq;
 
-namespace GoogleAnalyticsLinqProvider.Sample.Managers
+namespace linq2ga.Sample.Managers
 {
     public static class Settings
     {

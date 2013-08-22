@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Enums;
 using System.Reflection;
-using GoogleAnalyticsLinqProvider.Attributes;
+using linq2ga.Attributes;
 
-namespace GoogleAnalyticsLinqProvider
+namespace linq2ga.Extensions
 {
     /// <summary>
     /// MemberInfo extension methods

@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Attributes;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Attributes;
+using linq2ga.Enums;
 using System.Collections;
 using System.Linq.Expressions;
-using GoogleAnalyticsLinqProvider.Parsers;
+using linq2ga.Parsers;
 using Google.Apis.Analytics.v3;
 using Google.Apis.Analytics.v3.Data;
 using Google.Apis.Requests;
 using System.Reflection;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Initial Google Analytics data context

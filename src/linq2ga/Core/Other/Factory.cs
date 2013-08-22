@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Parsers;
+using linq2ga.Parsers;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// A simple static factory that provides the instances for target interfaces

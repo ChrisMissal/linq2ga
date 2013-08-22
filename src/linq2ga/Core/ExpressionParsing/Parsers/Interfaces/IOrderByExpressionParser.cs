@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Linq.Expressions;
 using System.Reflection;
-using GoogleAnalyticsLinqProvider.Core;
+using linq2ga.Core;
 
-namespace GoogleAnalyticsLinqProvider.Parsers
+namespace linq2ga.Parsers
 {
     /// <summary>
     /// Generate a string for 'Sort' parameter of Google Analytics query based on the lambda expression.

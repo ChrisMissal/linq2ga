@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Parsers;
+using linq2ga.Parsers;
 using Google.Apis.Analytics.v3;
 using System.Linq.Expressions;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Created Data context

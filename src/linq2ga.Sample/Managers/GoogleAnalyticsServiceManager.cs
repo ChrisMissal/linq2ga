@@ -8,7 +8,7 @@ using Google.Apis.Authentication.OAuth2;
 using DotNetOpenAuth.OAuth2;
 using System.Text;
 
-namespace GoogleAnalyticsLinqProvider.Sample.Managers
+namespace linq2ga.Sample.Managers
 {
     public static class GoogleAnalyticsServiceManager
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Linq.Expressions;
 
-namespace GoogleAnalyticsLinqProvider.Exceptions
+namespace linq2ga.Exceptions
 {
     public class NotSupportedExpressionException : Exception
     {

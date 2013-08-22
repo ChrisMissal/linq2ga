@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace GoogleAnalyticsLinqProvider.Sample.Models
+namespace linq2ga.Sample.Models
 {
     public class VisitorsByCountryModel
     {

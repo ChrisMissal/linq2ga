@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Linq.Expressions;
-using GoogleAnalyticsLinqProvider.Core;
+using linq2ga.Core;
 
-namespace GoogleAnalyticsLinqProvider.Parsers
+namespace linq2ga.Parsers
 {
     /// <summary>
     /// Generate an object with data for 'Metrics' and 'Dimensions' parameters of Google Analytics query based on the lambda expression.

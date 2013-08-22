@@ -4,12 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Google.Apis.Analytics.v3;
-using GoogleAnalyticsLinqProvider.Sample.Managers;
-using GoogleAnalyticsLinqProvider.Sample.Models;
+using linq2ga.Sample.Managers;
+using linq2ga.Sample.Models;
 
-namespace GoogleAnalyticsLinqProvider.Sample.Controllers
+namespace linq2ga.Sample.Controllers
 {
-    using Ga = GoogleAnalyticsLinqProvider.Core;
+    using Ga = linq2ga.Core;
 
     public class IndexController : Controller
     {

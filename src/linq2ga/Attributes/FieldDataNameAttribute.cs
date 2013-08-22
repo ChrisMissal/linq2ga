@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Enums;
 
-namespace GoogleAnalyticsLinqProvider.Attributes
+namespace linq2ga.Attributes
 {
     /// <summary>
     /// Google Analytics field name attribute

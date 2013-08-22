@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Provides the instance of Dimension data field

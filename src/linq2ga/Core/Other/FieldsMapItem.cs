@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Reflection;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Enums;
+using linq2ga.Extensions;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Provides the relation between the Result Object member and Context Model member in the Select clause

@@ -5,13 +5,14 @@ using System.Text;
 using System.Reflection;
 using System.Linq.Expressions;
 
-using GoogleAnalyticsLinqProvider.Core;
-using GoogleAnalyticsLinqProvider.Attributes;
-using GoogleAnalyticsLinqProvider.Exceptions;
+using linq2ga.Core;
+using linq2ga.Attributes;
+using linq2ga.Exceptions;
+using linq2ga.Extensions;
 
-namespace GoogleAnalyticsLinqProvider.Parsers
+namespace linq2ga.Parsers
 {
-    using Parsers = GoogleAnalyticsLinqProvider.Parsers.ExpressionParsers;
+    using Parsers = linq2ga.Parsers.ExpressionParsers;
 
     /// <summary>
     /// Generate a string for 'Filter' or 'Segment' parameters of Google Analytics query based on the lambda expression.

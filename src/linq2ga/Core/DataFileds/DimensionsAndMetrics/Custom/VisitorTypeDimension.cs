@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Enums;
+using linq2ga.Enums;
 
-namespace GoogleAnalyticsLinqProvider.Core.DataFields
+namespace linq2ga.Core.DataFields
 {
     public class VisitorTypeDimension : Dimension<VisitorType>
     {

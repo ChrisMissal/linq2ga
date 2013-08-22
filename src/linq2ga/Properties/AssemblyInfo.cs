@@ -2,9 +2,9 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("linq2ga")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A Linq provider to Google Analytics")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Chris Missal")]
 [assembly: AssemblyProduct("linq2ga")]
 [assembly: AssemblyCopyright("Copyright © Chris Missal 2013")]
 [assembly: AssemblyTrademark("")]

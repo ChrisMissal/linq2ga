@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Attributes;
-using GoogleAnalyticsLinqProvider.Enums;
-using GoogleAnalyticsLinqProvider.Core.DataFields;
+using linq2ga.Attributes;
+using linq2ga.Enums;
+using linq2ga.Core.DataFields;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Google Analytics data model. Contains all available Google Analytics fields.

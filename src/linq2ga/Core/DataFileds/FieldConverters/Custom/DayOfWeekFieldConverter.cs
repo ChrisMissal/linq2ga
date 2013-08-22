@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
-namespace GoogleAnalyticsLinqProvider.Core.DataFields
+namespace linq2ga.Core.DataFields
 {
     internal class DayOfWeekFieldConverter : IFieldConverter<DayOfWeek>
     {

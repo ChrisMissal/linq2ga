@@ -2,9 +2,9 @@
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("linq2ga.Sample")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A sample application that uses linq2ga.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Chris Missal")]
 [assembly: AssemblyProduct("linq2ga.Sample")]
 [assembly: AssemblyCopyright("Copyright © Chris Missal 2013")]
 [assembly: AssemblyTrademark("")]

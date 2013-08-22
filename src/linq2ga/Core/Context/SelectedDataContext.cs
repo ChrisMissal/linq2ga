@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using GoogleAnalyticsLinqProvider.Parsers;
+using linq2ga.Parsers;
 using Google.Apis.Analytics.v3.Data;
 using System.Reflection;
-using GoogleAnalyticsLinqProvider.Enums;
+using linq2ga.Enums;
 using System.Linq.Expressions;
 using Google.Apis.Analytics.v3;
 
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Selected data context

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Globalization;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     internal class DefaultFieldConverter<T> : IFieldConverter<T>
     {

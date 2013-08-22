@@ -5,10 +5,11 @@ using System.Text;
 using Google.Apis.Analytics.v3.Data;
 using Google.Apis.Analytics.v3;
 using System.Reflection;
-using GoogleAnalyticsLinqProvider.Enums;
-using GoogleAnalyticsLinqProvider.Exceptions;
+using linq2ga.Enums;
+using linq2ga.Exceptions;
+using linq2ga.Extensions;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     internal class AnalyticsProcessor<T> : IAnalyticsProcessor<T>
     {

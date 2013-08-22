@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GoogleAnalyticsLinqProvider.Parsers.ExpressionParsers
+namespace linq2ga.Parsers.ExpressionParsers
 {
     /// <summary>
     /// Expression parser interface

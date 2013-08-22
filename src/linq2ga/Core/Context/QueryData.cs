@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Google.Apis.Analytics.v3;
 
-namespace GoogleAnalyticsLinqProvider.Core
+namespace linq2ga.Core
 {
     /// <summary>
     /// Contains all necessary data for Google Analytics request

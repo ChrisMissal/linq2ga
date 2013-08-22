@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace GoogleAnalyticsLinqProvider.Exceptions
+namespace linq2ga.Exceptions
 {
     public class GoogleAnalyticsRequestException : Exception
     {
